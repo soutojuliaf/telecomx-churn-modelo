@@ -62,10 +62,4 @@ Os dados utilizados nesta etapa foram gerados na Parte 1 do desafio, após o pro
 
 ```python
 ## Autora: Julia Souto
-
-Feito como parte do **Challenge de Data Science — Alura**
-
----
-
-
-Este projeto está sob a licença MIT.
+## Feito como parte do **Challenge de Data Science — Alura**
