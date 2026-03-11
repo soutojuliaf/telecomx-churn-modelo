@@ -56,59 +56,11 @@ telecomx-churn-modelo
 - Curva ROC / AUC
 
 ---
-
-## Como Executar
-
-### 1. Clone o repositório
-```bash
-git clone https://github.com/seu-usuario/telecomx-churn-modelo.git
-cd telecomx-churn-modelo
-```
-
-### 2. Instale as dependências
-```bash
-pip install pandas numpy matplotlib seaborn scikit-learn xgboost
-```
-
-### 3. Abra o notebook
-```bash
-jupyter notebook TelecomX_Modelo.ipynb
-```
-
-> Ou abra diretamente no **Google Colab** clicando no botão abaixo:
->
-> [![Abrir no Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/)
-
----
-
 ## Dados
 
 Os dados utilizados nesta etapa foram gerados na Parte 1 do desafio, após o processo de ETL:
 
 ```python
-# Para gerar o arquivo CSV a partir do notebook da Parte 1:
-df.to_csv("dados_tratados.csv", index=False)
-
-# Para carregar neste projeto:
-import pandas as pd
-df = pd.read_csv("dados_tratados.csv")
-```
-
----
-
-## Atualizando o Repositório
-
-Sempre que fizer alterações no projeto, use o fluxo abaixo:
-
-```bash
-git pull                          # Baixa alterações remotas
-git add .                         # Adiciona os arquivos modificados
-git commit -m "descrição clara"   # Registra as mudanças
-git push origin main              # Envia para o GitHub
-```
-
----
-
 ## Autora: Julia Souto
 
 Feito como parte do **Challenge de Data Science — Alura**
